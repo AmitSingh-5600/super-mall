@@ -20,7 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="super-mall">
         <Routes>
           <Route path="/" element={<Layout><Index /></Layout>} />
           <Route path="/shops" element={<Layout><ShopsPage /></Layout>} />
